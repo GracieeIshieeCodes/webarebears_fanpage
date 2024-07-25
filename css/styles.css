@@ -633,6 +633,7 @@ footer {
     .slide-content p {
         font-size: 1.25rem; 
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -720,6 +721,10 @@ footer {
     .about-description p {
         font-size: 12px;
     }
+        /* Hide stickers on mobile devices */
+        .stickers {
+            display: none;
+        }
 }
 
 @media (max-width: 480px) {
